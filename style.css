@@ -1,0 +1,95 @@
+body{
+	margin:0px;
+	padding:0px;
+
+}
+.header-area{
+	background: #000;
+	color:#fff;
+	padding: 20px;
+}
+.logo{
+	width:40%;
+	float:left;
+	overflow: hidden;
+
+}
+.menu{
+	width: 60%;
+	overflow: hidden;
+
+}
+.menu ul{
+	float: right;
+	padding-right: 100px;
+}
+.menu ul li{
+	display: inline;
+}
+.menu ul li a{
+	text-decoration: none;
+	color:#fff;
+	background:red;
+	padding:10px;
+
+}
+.logo p{
+	font-size: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 2px red solid;
+	float: left;
+	position: relative;
+	animation-name: shahadat;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+	animation-direction: alternate;
+
+}
+@keyframes shahadat{
+	from{
+		left: 0;
+
+	}
+	to{
+		left: 200px;
+	}
+}
+.container{
+	width: 80%;
+	margin:auto;
+}
+.col-1-3{
+	width: 25%;
+	float: left;
+	overflow: hidden;
+	padding: 40px;
+}
+.col-1-3 img{
+	border-radius: 50%;
+	height: 200px;
+	width:200px;
+	position: relative;
+	animation-name: shahadat;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+	animation-direction: alternate;
+
+}
+@keyframes shahadat{
+	from{
+		left: 0;
+
+	}
+	to{
+		left: 100px;
+	}
+}
+.footer-area{
+	overflow: hidden;
+	float: left;
+	background: #000;
+	color: red;
+	width: 100%;
+	text-align:center;
+}
